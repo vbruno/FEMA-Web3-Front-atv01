@@ -1,7 +1,11 @@
+import { Avatar } from "./components/Avatar"
+
+import style from "./App.module.css"
+
 function App() {
   return (
-    <div className="container">
-      <h1>Vite + React</h1>
+    <div className={style.container}>
+      <Avatar />
     </div>
   )
 }
