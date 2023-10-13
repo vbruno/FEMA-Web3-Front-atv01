@@ -1,8 +1,12 @@
+import style from "./App.module.css"
+
+import { CardAvatar } from "./components/CardAvatar"
 
 function App() {
+
   return (
-    <div>
-      <h1>Projeto Limpo para iniciar desenvolvimento</h1>
+    <div className={style.container}>
+      <CardAvatar />
     </div>
   )
 }
