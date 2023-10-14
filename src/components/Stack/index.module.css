@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 23px;
+
+  padding: 1px 8px;
+
+  border-radius: 8px;
+
+  background: #00b37e;
+}
+
+.container p {
+  margin: 0;
+
+  color: #E1E1E6;
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 22.4px */
+  text-transform: capitalize;
+}
